@@ -1,0 +1,21 @@
+@use "../utils" as u;
+
+body {
+	font-size: 2rem;
+	color: u.$font-color;
+}
+
+h2 {
+	font-size: 1.4rem;
+	font-family: u.$ff02;
+}
+
+p {
+	font-size: 0.938rem;
+	font-family: u.$ff01;
+}
+
+button {
+	font-family: u.$ff01;
+	font-size: 1.2rem;
+}
