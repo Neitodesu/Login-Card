@@ -49,7 +49,7 @@ body {
 .profile-card:hover {
 	height: 260px;
 	width: 500px;
-	transition: 0.2s;
+	transition: 0.2s ease-in-out;
 
 	.user-info {
 		display: flex;
@@ -72,12 +72,12 @@ body {
 			color: #fff;
 			border-radius: 1.2em;
 			margin-bottom: 0.6em;
-			transition: 0.2s;
+			transition: 0.2s ease-in-out;
 
 			&:hover {
 				transform: scale(1.1);
 				transform: translateY(-2px);
-				transition: 0.2s;
+				transition: 0.2s ease-in-out;
 			}
 		}
 	}
