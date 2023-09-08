@@ -1,1 +1,126 @@
-@import"https://fonts.googleapis.com/css2?family=Inter&family=Oswald:wght@700&display=swap";*::before,*::after{box-sizing:border-box}*{margin:0}html{font-size:100%}body{line-height:1.5;-webkit-font-smoothing:antialiased}img{display:block;max-width:100%}p,h1,h2,h3,h4,h5,h6{overflow-wrap:break-word}body{font-size:2rem;color:#534e4f}h2{font-size:1.4rem;font-family:"Oswald",sans-serif}p{font-size:.938rem;font-family:"Inter",sans-serif}button{font-family:"Oswald",sans-serif;font-size:1.2rem}body{height:100vh;display:grid;place-content:center;background-color:pink}body .profile-card{border:2px solid #fd9aab;border-radius:.2em;background-color:#fff;position:relative;height:150px;width:300px;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;text-align:center;transition:.2s ease-in-out}body .profile-card .profile-img{border:4px solid #fd9aab;position:absolute;top:0;transform:translateY(-50%);height:160px;width:160px;border-radius:50%;overflow:hidden}body .user-info h2{padding:.6em}body .user-info p{display:none}body .user-options{display:none}.profile-card:hover{height:260px;width:500px;transition:.2s ease-in-out}.profile-card:hover .user-info{display:flex;flex-direction:column;justify-content:center;align-items:center}.profile-card:hover .user-info p{display:block;max-width:60%}.profile-card:hover .user-options{display:inline}.profile-card:hover .user-options button{padding:.6em 2em;border:0;background-color:#fd9aab;color:#fff;border-radius:1.2em;margin-bottom:.6em;transition:.2s ease-in-out}.profile-card:hover .user-options button:hover{transform:scale(1.1);transform:translateY(-2px);transition:.2s ease-in-out}/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Oswald:wght@700&display=swap");
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+}
+
+html {
+	font-size: 100%;
+}
+
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+body {
+	font-size: 2rem;
+	color: rgb(83, 78, 79);
+}
+
+h2 {
+	font-size: 1.4rem;
+	font-family: "Oswald", sans-serif;
+}
+
+p {
+	font-size: 0.938rem;
+	font-family: "Inter", sans-serif;
+}
+
+button {
+	font-family: "Oswald", sans-serif;
+	font-size: 1.2rem;
+}
+
+body {
+	height: 100vh;
+	display: grid;
+	place-content: center;
+	background-color: pink;
+}
+body .profile-card {
+	border: 2px solid rgb(253, 154, 171);
+	border-radius: 0.2em;
+	background-color: #fff;
+	position: relative;
+	height: 150px;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	text-align: center;
+	transition: 0.2s ease-in-out;
+}
+body .profile-card .profile-img {
+	border: 4px solid rgb(253, 154, 171);
+	position: absolute;
+	top: 0;
+	transform: translateY(-50%);
+	height: 160px;
+	width: 160px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+body .user-info h2 {
+	padding: 0.6em;
+}
+body .user-info p {
+	display: none;
+}
+body .user-options {
+	display: none;
+}
+
+.profile-card:hover {
+	height: 260px;
+	width: 500px;
+	transition: 0.2s ease-in-out;
+}
+.profile-card:hover .user-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.profile-card:hover .user-info p {
+	display: block;
+	max-width: 60%;
+}
+.profile-card:hover .user-options {
+	display: inline;
+}
+.profile-card:hover .user-options button {
+	padding: 0.6em 2em;
+	border: 0;
+	background-color: rgb(253, 154, 171);
+	color: #fff;
+	border-radius: 1.2em;
+	margin-bottom: 0.6em;
+	transition: 0.2s ease-in-out;
+}
+.profile-card:hover .user-options button:hover {
+	transform: scale(1.1);
+	transform: translateY(-2px);
+	transition: 0.2s ease-in-out;
+} /*# sourceMappingURL=style.css.map */
